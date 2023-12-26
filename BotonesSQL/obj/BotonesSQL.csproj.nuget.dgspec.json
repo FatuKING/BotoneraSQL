@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\fcozzani\\source\\repos\\BotonesSQL\\BotonesSQL\\BotonesSQL.csproj": {}
+    "C:\\Users\\FatuKING\\Documents\\Proyectos WEB\\Botonera SQL\\BotoneraSQL\\BotonesSQL\\BotonesSQL.csproj": {}
   },
   "projects": {
-    "C:\\Users\\fcozzani\\source\\repos\\BotonesSQL\\BotonesSQL\\BotonesSQL.csproj": {
+    "C:\\Users\\FatuKING\\Documents\\Proyectos WEB\\Botonera SQL\\BotoneraSQL\\BotonesSQL\\BotonesSQL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\fcozzani\\source\\repos\\BotonesSQL\\BotonesSQL\\BotonesSQL.csproj",
+        "projectUniqueName": "C:\\Users\\FatuKING\\Documents\\Proyectos WEB\\Botonera SQL\\BotoneraSQL\\BotonesSQL\\BotonesSQL.csproj",
         "projectName": "BotonesSQL",
-        "projectPath": "C:\\Users\\fcozzani\\source\\repos\\BotonesSQL\\BotonesSQL\\BotonesSQL.csproj",
-        "packagesPath": "C:\\Users\\fcozzani\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\fcozzani\\source\\repos\\BotonesSQL\\BotonesSQL\\obj\\",
+        "projectPath": "C:\\Users\\FatuKING\\Documents\\Proyectos WEB\\Botonera SQL\\BotoneraSQL\\BotonesSQL\\BotonesSQL.csproj",
+        "packagesPath": "C:\\Users\\FatuKING\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\FatuKING\\Documents\\Proyectos WEB\\Botonera SQL\\BotoneraSQL\\BotonesSQL\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\fcozzani\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\FatuKING\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -44,6 +44,12 @@
       "frameworks": {
         "net6.0-windows7.0": {
           "targetAlias": "net6.0-windows",
+          "dependencies": {
+            "System.Data.SqlClient": {
+              "target": "Package",
+              "version": "[4.8.5, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

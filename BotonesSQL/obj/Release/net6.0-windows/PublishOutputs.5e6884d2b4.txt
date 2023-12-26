@@ -1,0 +1,11 @@
+C:\Users\FatuKING\Documents\Proyectos WEB\Botonera SQL\BotoneraSQL\BotonesSQL\bin\Release\net6.0-windows\publish\BotonesSQL.exe
+C:\Users\FatuKING\Documents\Proyectos WEB\Botonera SQL\BotoneraSQL\BotonesSQL\bin\Release\net6.0-windows\publish\BotonesSQL.dll
+C:\Users\FatuKING\Documents\Proyectos WEB\Botonera SQL\BotoneraSQL\BotonesSQL\bin\Release\net6.0-windows\publish\BotonesSQL.deps.json
+C:\Users\FatuKING\Documents\Proyectos WEB\Botonera SQL\BotoneraSQL\BotonesSQL\bin\Release\net6.0-windows\publish\BotonesSQL.runtimeconfig.json
+C:\Users\FatuKING\Documents\Proyectos WEB\Botonera SQL\BotoneraSQL\BotonesSQL\bin\Release\net6.0-windows\publish\BotonesSQL.pdb
+C:\Users\FatuKING\Documents\Proyectos WEB\Botonera SQL\BotoneraSQL\BotonesSQL\bin\Release\net6.0-windows\publish\System.Data.SqlClient.dll
+C:\Users\FatuKING\Documents\Proyectos WEB\Botonera SQL\BotoneraSQL\BotonesSQL\bin\Release\net6.0-windows\publish\runtimes\win-arm64\native\sni.dll
+C:\Users\FatuKING\Documents\Proyectos WEB\Botonera SQL\BotoneraSQL\BotonesSQL\bin\Release\net6.0-windows\publish\runtimes\win-x64\native\sni.dll
+C:\Users\FatuKING\Documents\Proyectos WEB\Botonera SQL\BotoneraSQL\BotonesSQL\bin\Release\net6.0-windows\publish\runtimes\win-x86\native\sni.dll
+C:\Users\FatuKING\Documents\Proyectos WEB\Botonera SQL\BotoneraSQL\BotonesSQL\bin\Release\net6.0-windows\publish\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\FatuKING\Documents\Proyectos WEB\Botonera SQL\BotoneraSQL\BotonesSQL\bin\Release\net6.0-windows\publish\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
