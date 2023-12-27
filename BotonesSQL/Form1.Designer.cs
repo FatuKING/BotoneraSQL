@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             label1 = new Label();
             label2 = new Label();
             textBox1 = new TextBox();
@@ -37,58 +38,45 @@
             // 
             // label1
             // 
-            label1.AutoSize = true;
-            label1.Location = new Point(45, 33);
+            resources.ApplyResources(label1, "label1");
             label1.Name = "label1";
-            label1.Size = new Size(47, 15);
-            label1.TabIndex = 0;
-            label1.Text = "Usuario";
             // 
             // label2
             // 
-            label2.AutoSize = true;
-            label2.Location = new Point(45, 60);
+            resources.ApplyResources(label2, "label2");
             label2.Name = "label2";
-            label2.Size = new Size(67, 15);
-            label2.TabIndex = 1;
-            label2.Text = "Contraseña";
             // 
             // textBox1
             // 
-            textBox1.Location = new Point(128, 25);
+            resources.ApplyResources(textBox1, "textBox1");
             textBox1.Name = "textBox1";
-            textBox1.Size = new Size(100, 23);
-            textBox1.TabIndex = 2;
             // 
             // textBox2
             // 
-            textBox2.Location = new Point(128, 52);
+            resources.ApplyResources(textBox2, "textBox2");
             textBox2.Name = "textBox2";
-            textBox2.Size = new Size(100, 23);
-            textBox2.TabIndex = 3;
+            textBox2.UseSystemPasswordChar = true;
             // 
             // button1
             // 
-            button1.Location = new Point(45, 88);
+            resources.ApplyResources(button1, "button1");
             button1.Name = "button1";
-            button1.Size = new Size(183, 23);
-            button1.TabIndex = 4;
-            button1.Text = "Login";
             button1.UseVisualStyleBackColor = true;
             button1.Click += button1_Click;
             // 
             // Form1
             // 
-            AutoScaleDimensions = new SizeF(7F, 15F);
+            resources.ApplyResources(this, "$this");
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(277, 119);
             Controls.Add(button1);
             Controls.Add(textBox2);
             Controls.Add(textBox1);
             Controls.Add(label2);
             Controls.Add(label1);
+            FormBorderStyle = FormBorderStyle.FixedSingle;
+            MaximizeBox = false;
+            MdiChildrenMinimizedAnchorBottom = false;
             Name = "Form1";
-            Text = "Botoncitos SQL";
             ResumeLayout(false);
             PerformLayout();
         }

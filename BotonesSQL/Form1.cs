@@ -16,14 +16,14 @@ namespace BotonesSQL
             string username = textBox1.Text;
             string password = textBox2.Text;
 
-            if (username == "icg" || password == "Arg3ntina") 
+            if (username == "icg" & password == "Arg3ntina")
             {
                 Form2 form2 = new Form2();
                 form2.ShowDialog();
             }
             else
             {
-               MessageBox.Show("Contraseña Incorrecta");
+                MessageBox.Show("Contraseña Incorrecta");
             }
         }
     }

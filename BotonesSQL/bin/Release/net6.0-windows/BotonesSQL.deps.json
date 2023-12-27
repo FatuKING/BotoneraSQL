@@ -12,6 +12,11 @@
         },
         "runtime": {
           "BotonesSQL.dll": {}
+        },
+        "resources": {
+          "es-AR/BotonesSQL.resources.dll": {
+            "locale": "es-AR"
+          }
         }
       },
       "Microsoft.NETCore.Platforms/3.1.0": {},
