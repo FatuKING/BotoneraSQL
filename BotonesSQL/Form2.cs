@@ -8,7 +8,6 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-using System.Data.SqlClient;
 
 namespace BotonesSQL
 {
@@ -79,11 +78,11 @@ namespace BotonesSQL
 
                     if (rowsAffected > 0)
                     {
-                        MessageBox.Show("Se eliminaron " + rowsAffected + " fila(s) correctamente.");
+                        MessageBox.Show("Se actualizaron " + rowsAffected + " fila(s) correctamente.");
                     }
                     else
                     {
-                        MessageBox.Show("No se encontraron filas para eliminar.");
+                        MessageBox.Show("No se encontraron filas para actualizar.");
                     }
                 }
                 catch (Exception ex)

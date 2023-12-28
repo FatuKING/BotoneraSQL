@@ -55,19 +55,22 @@
             // 
             // button1
             // 
-            button1.Location = new Point(201, 59);
+            button1.FlatStyle = FlatStyle.Flat;
+            button1.ForeColor = Color.White;
+            button1.Location = new Point(187, 59);
             button1.Name = "button1";
-            button1.Size = new Size(170, 53);
+            button1.Size = new Size(170, 43);
             button1.TabIndex = 1;
             button1.Text = "Borrar setup";
-            button1.UseVisualStyleBackColor = true;
+            button1.UseVisualStyleBackColor = false;
             button1.Click += button1_Click;
             // 
             // button2
             // 
-            button2.Location = new Point(201, 118);
+            button2.FlatStyle = FlatStyle.Flat;
+            button2.Location = new Point(187, 108);
             button2.Name = "button2";
-            button2.Size = new Size(170, 57);
+            button2.Size = new Size(170, 43);
             button2.TabIndex = 2;
             button2.Text = "Ocultar usuario";
             button2.UseVisualStyleBackColor = true;
@@ -75,9 +78,10 @@
             // 
             // button3
             // 
+            button3.FlatStyle = FlatStyle.Flat;
             button3.Location = new Point(12, 59);
             button3.Name = "button3";
-            button3.Size = new Size(171, 53);
+            button3.Size = new Size(169, 43);
             button3.TabIndex = 3;
             button3.Text = "Actualizar nombre cliente";
             button3.UseVisualStyleBackColor = true;
@@ -85,9 +89,10 @@
             // 
             // button4
             // 
-            button4.Location = new Point(13, 178);
+            button4.FlatStyle = FlatStyle.Flat;
+            button4.Location = new Point(12, 255);
             button4.Name = "button4";
-            button4.Size = new Size(170, 57);
+            button4.Size = new Size(169, 43);
             button4.TabIndex = 4;
             button4.Text = "Ocultar ticket";
             button4.UseVisualStyleBackColor = true;
@@ -95,19 +100,21 @@
             // 
             // button5
             // 
-            button5.Location = new Point(12, 118);
+            button5.FlatStyle = FlatStyle.Flat;
+            button5.Location = new Point(12, 108);
             button5.Name = "button5";
-            button5.Size = new Size(170, 54);
+            button5.Size = new Size(169, 43);
             button5.TabIndex = 5;
-            button5.Text = "Actualizar dni";
+            button5.Text = "Actualizar DNI";
             button5.UseVisualStyleBackColor = true;
             button5.Click += button5_Click;
             // 
             // button6
             // 
-            button6.Location = new Point(12, 241);
+            button6.FlatStyle = FlatStyle.Flat;
+            button6.Location = new Point(12, 157);
             button6.Name = "button6";
-            button6.Size = new Size(171, 57);
+            button6.Size = new Size(169, 43);
             button6.TabIndex = 6;
             button6.Text = "Ticket sin vendedor";
             button6.UseVisualStyleBackColor = true;
@@ -117,7 +124,7 @@
             // 
             label2.AutoSize = true;
             label2.Font = new Font("Verdana", 18F, FontStyle.Regular, GraphicsUnit.Point);
-            label2.Location = new Point(201, 22);
+            label2.Location = new Point(187, 23);
             label2.Name = "label2";
             label2.Size = new Size(128, 29);
             label2.TabIndex = 7;
@@ -125,9 +132,10 @@
             // 
             // button7
             // 
-            button7.Location = new Point(12, 304);
+            button7.FlatStyle = FlatStyle.Flat;
+            button7.Location = new Point(12, 206);
             button7.Name = "button7";
-            button7.Size = new Size(171, 57);
+            button7.Size = new Size(169, 43);
             button7.TabIndex = 8;
             button7.Text = "Código cliente -1";
             button7.UseVisualStyleBackColor = true;
@@ -135,9 +143,10 @@
             // 
             // button8
             // 
-            button8.Location = new Point(13, 365);
+            button8.FlatStyle = FlatStyle.Flat;
+            button8.Location = new Point(12, 304);
             button8.Name = "button8";
-            button8.Size = new Size(170, 57);
+            button8.Size = new Size(169, 43);
             button8.TabIndex = 9;
             button8.Text = "Cambiar régimen de facturación";
             button8.UseVisualStyleBackColor = true;
@@ -146,10 +155,10 @@
             // pictureBox1
             // 
             pictureBox1.Image = (Image)resources.GetObject("pictureBox1.Image");
-            pictureBox1.Location = new Point(217, 181);
+            pictureBox1.Location = new Point(187, 170);
             pictureBox1.Name = "pictureBox1";
-            pictureBox1.Size = new Size(128, 128);
-            pictureBox1.SizeMode = PictureBoxSizeMode.AutoSize;
+            pictureBox1.Size = new Size(170, 168);
+            pictureBox1.SizeMode = PictureBoxSizeMode.StretchImage;
             pictureBox1.TabIndex = 10;
             pictureBox1.TabStop = false;
             // 
@@ -157,7 +166,8 @@
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(388, 434);
+            BackColor = Color.FromArgb(64, 64, 64);
+            ClientSize = new Size(373, 356);
             Controls.Add(pictureBox1);
             Controls.Add(button8);
             Controls.Add(button7);
@@ -169,6 +179,9 @@
             Controls.Add(button2);
             Controls.Add(button1);
             Controls.Add(label1);
+            ForeColor = Color.White;
+            FormBorderStyle = FormBorderStyle.FixedSingle;
+            MaximizeBox = false;
             Name = "Form2";
             Text = "QueryAutomatic";
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();

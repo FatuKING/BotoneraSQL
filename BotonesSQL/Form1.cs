@@ -18,13 +18,18 @@ namespace BotonesSQL
 
             if (username == "icg" & password == "Arg3ntina")
             {
+                this.Hide();
+
                 Form2 form2 = new Form2();
                 form2.ShowDialog();
+
+                this.Close();
             }
             else
             {
                 MessageBox.Show("Contraseña Incorrecta");
             }
+
         }
     }
 }

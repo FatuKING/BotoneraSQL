@@ -1,0 +1,12 @@
+C:\Users\fcozzani\Desktop\queryAutomatic\BotoneraSQL\BotonesSQL\bin\Release\net6.0-windows\publish\BotonesSQL.exe
+C:\Users\fcozzani\Desktop\queryAutomatic\BotoneraSQL\BotonesSQL\bin\Release\net6.0-windows\publish\BotonesSQL.dll
+C:\Users\fcozzani\Desktop\queryAutomatic\BotoneraSQL\BotonesSQL\bin\Release\net6.0-windows\publish\BotonesSQL.deps.json
+C:\Users\fcozzani\Desktop\queryAutomatic\BotoneraSQL\BotonesSQL\bin\Release\net6.0-windows\publish\BotonesSQL.runtimeconfig.json
+C:\Users\fcozzani\Desktop\queryAutomatic\BotoneraSQL\BotonesSQL\bin\Release\net6.0-windows\publish\BotonesSQL.pdb
+C:\Users\fcozzani\Desktop\queryAutomatic\BotoneraSQL\BotonesSQL\bin\Release\net6.0-windows\publish\es-AR\BotonesSQL.resources.dll
+C:\Users\fcozzani\Desktop\queryAutomatic\BotoneraSQL\BotonesSQL\bin\Release\net6.0-windows\publish\System.Data.SqlClient.dll
+C:\Users\fcozzani\Desktop\queryAutomatic\BotoneraSQL\BotonesSQL\bin\Release\net6.0-windows\publish\runtimes\win-arm64\native\sni.dll
+C:\Users\fcozzani\Desktop\queryAutomatic\BotoneraSQL\BotonesSQL\bin\Release\net6.0-windows\publish\runtimes\win-x64\native\sni.dll
+C:\Users\fcozzani\Desktop\queryAutomatic\BotoneraSQL\BotonesSQL\bin\Release\net6.0-windows\publish\runtimes\win-x86\native\sni.dll
+C:\Users\fcozzani\Desktop\queryAutomatic\BotoneraSQL\BotonesSQL\bin\Release\net6.0-windows\publish\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\fcozzani\Desktop\queryAutomatic\BotoneraSQL\BotonesSQL\bin\Release\net6.0-windows\publish\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
