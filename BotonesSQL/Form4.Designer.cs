@@ -40,9 +40,9 @@
             // 
             button1.FlatStyle = FlatStyle.Flat;
             button1.Font = new Font("Verdana", 9.75F, FontStyle.Regular, GraphicsUnit.Point);
-            button1.Location = new Point(14, 115);
+            button1.Location = new Point(14, 100);
             button1.Name = "button1";
-            button1.Size = new Size(297, 35);
+            button1.Size = new Size(297, 31);
             button1.TabIndex = 0;
             button1.Text = "Aceptar";
             button1.UseVisualStyleBackColor = true;
@@ -50,14 +50,14 @@
             // 
             // textBox1
             // 
-            textBox1.Location = new Point(157, 47);
+            textBox1.Location = new Point(157, 42);
             textBox1.Name = "textBox1";
             textBox1.Size = new Size(154, 23);
             textBox1.TabIndex = 1;
             // 
             // textBox2
             // 
-            textBox2.Location = new Point(157, 86);
+            textBox2.Location = new Point(157, 71);
             textBox2.Name = "textBox2";
             textBox2.Size = new Size(154, 23);
             textBox2.TabIndex = 2;
@@ -76,7 +76,7 @@
             // 
             label2.AutoSize = true;
             label2.Font = new Font("Verdana", 9.75F, FontStyle.Regular, GraphicsUnit.Point);
-            label2.Location = new Point(14, 49);
+            label2.Location = new Point(14, 44);
             label2.Name = "label2";
             label2.Size = new Size(120, 16);
             label2.TabIndex = 4;
@@ -86,7 +86,7 @@
             // 
             label3.AutoSize = true;
             label3.Font = new Font("Verdana", 9.75F, FontStyle.Regular, GraphicsUnit.Point);
-            label3.Location = new Point(14, 88);
+            label3.Location = new Point(14, 73);
             label3.Name = "label3";
             label3.Size = new Size(137, 16);
             label3.TabIndex = 5;
@@ -97,7 +97,7 @@
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.FromArgb(64, 64, 64);
-            ClientSize = new Size(328, 166);
+            ClientSize = new Size(325, 145);
             Controls.Add(label3);
             Controls.Add(label2);
             Controls.Add(label1);
@@ -105,6 +105,8 @@
             Controls.Add(textBox1);
             Controls.Add(button1);
             ForeColor = Color.White;
+            FormBorderStyle = FormBorderStyle.FixedSingle;
+            MaximizeBox = false;
             Name = "Form4";
             Text = "QueryAutomatic";
             ResumeLayout(false);

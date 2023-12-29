@@ -28,18 +28,98 @@
         /// </summary>
         private void InitializeComponent()
         {
+            button1 = new Button();
+            label1 = new Label();
+            label2 = new Label();
+            label3 = new Label();
+            textBox1 = new TextBox();
+            textBox2 = new TextBox();
             SuspendLayout();
+            // 
+            // button1
+            // 
+            button1.FlatStyle = FlatStyle.Flat;
+            button1.Font = new Font("Verdana", 9F, FontStyle.Regular, GraphicsUnit.Point);
+            button1.Location = new Point(12, 109);
+            button1.Name = "button1";
+            button1.Size = new Size(269, 28);
+            button1.TabIndex = 0;
+            button1.Text = "Aceptar";
+            button1.UseVisualStyleBackColor = true;
+            button1.Click += button1_Click;
+            // 
+            // label1
+            // 
+            label1.AutoSize = true;
+            label1.Font = new Font("Verdana", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            label1.Location = new Point(12, 9);
+            label1.Name = "label1";
+            label1.Size = new Size(269, 18);
+            label1.TabIndex = 1;
+            label1.Text = "Cambiar regimen de facturación";
+            // 
+            // label2
+            // 
+            label2.AutoSize = true;
+            label2.Font = new Font("Verdana", 9F, FontStyle.Regular, GraphicsUnit.Point);
+            label2.Location = new Point(12, 47);
+            label2.Name = "label2";
+            label2.Size = new Size(90, 14);
+            label2.TabIndex = 2;
+            label2.Text = "Ingrese CUIT";
+            // 
+            // label3
+            // 
+            label3.AutoSize = true;
+            label3.Font = new Font("Verdana", 9F, FontStyle.Regular, GraphicsUnit.Point);
+            label3.Location = new Point(12, 80);
+            label3.Name = "label3";
+            label3.Size = new Size(203, 14);
+            label3.TabIndex = 3;
+            label3.Text = "Ingrese regimen de factuación ";
+            // 
+            // textBox1
+            // 
+            textBox1.Location = new Point(221, 44);
+            textBox1.Name = "textBox1";
+            textBox1.Size = new Size(59, 23);
+            textBox1.TabIndex = 4;
+            // 
+            // textBox2
+            // 
+            textBox2.Location = new Point(221, 77);
+            textBox2.Name = "textBox2";
+            textBox2.Size = new Size(59, 23);
+            textBox2.TabIndex = 5;
             // 
             // Form7
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(335, 301);
+            BackColor = Color.FromArgb(64, 64, 64);
+            ClientSize = new Size(292, 147);
+            Controls.Add(textBox2);
+            Controls.Add(textBox1);
+            Controls.Add(label3);
+            Controls.Add(label2);
+            Controls.Add(label1);
+            Controls.Add(button1);
+            ForeColor = Color.White;
+            FormBorderStyle = FormBorderStyle.FixedSingle;
+            MaximizeBox = false;
             Name = "Form7";
-            Text = "Form7";
+            Text = "QueryAutomatic";
             ResumeLayout(false);
+            PerformLayout();
         }
 
         #endregion
+
+        private Button button1;
+        private Label label1;
+        private Label label2;
+        private Label label3;
+        private TextBox textBox1;
+        private TextBox textBox2;
     }
 }

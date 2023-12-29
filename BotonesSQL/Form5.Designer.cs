@@ -41,7 +41,7 @@
             // 
             label1.AutoSize = true;
             label1.Font = new Font("Verdana", 9.75F, FontStyle.Regular, GraphicsUnit.Point);
-            label1.Location = new Point(23, 46);
+            label1.Location = new Point(12, 44);
             label1.Name = "label1";
             label1.Size = new Size(120, 16);
             label1.TabIndex = 1;
@@ -50,7 +50,7 @@
             // label2
             // 
             label2.AutoSize = true;
-            label2.Location = new Point(23, 76);
+            label2.Location = new Point(12, 74);
             label2.Name = "label2";
             label2.Size = new Size(90, 15);
             label2.TabIndex = 2;
@@ -58,14 +58,14 @@
             // 
             // textBox1
             // 
-            textBox1.Location = new Point(183, 44);
+            textBox1.Location = new Point(172, 42);
             textBox1.Name = "textBox1";
             textBox1.Size = new Size(78, 23);
             textBox1.TabIndex = 3;
             // 
             // textBox2
             // 
-            textBox2.Location = new Point(183, 73);
+            textBox2.Location = new Point(172, 71);
             textBox2.Name = "textBox2";
             textBox2.Size = new Size(78, 23);
             textBox2.TabIndex = 4;
@@ -74,7 +74,7 @@
             // 
             button2.FlatStyle = FlatStyle.Flat;
             button2.Font = new Font("Verdana", 9.75F, FontStyle.Regular, GraphicsUnit.Point);
-            button2.Location = new Point(23, 150);
+            button2.Location = new Point(12, 139);
             button2.Name = "button2";
             button2.Size = new Size(238, 32);
             button2.TabIndex = 5;
@@ -86,7 +86,7 @@
             // 
             label3.AutoSize = true;
             label3.Font = new Font("Verdana", 12F, FontStyle.Regular, GraphicsUnit.Point);
-            label3.Location = new Point(82, 9);
+            label3.Location = new Point(67, 9);
             label3.Name = "label3";
             label3.Size = new Size(126, 18);
             label3.TabIndex = 6;
@@ -95,9 +95,10 @@
             // button1
             // 
             button1.FlatStyle = FlatStyle.Flat;
-            button1.Location = new Point(23, 111);
+            button1.Font = new Font("Verdana", 9F, FontStyle.Regular, GraphicsUnit.Point);
+            button1.Location = new Point(12, 100);
             button1.Name = "button1";
-            button1.Size = new Size(239, 33);
+            button1.Size = new Size(238, 33);
             button1.TabIndex = 7;
             button1.Text = "Consulta DNI actual";
             button1.UseVisualStyleBackColor = true;
@@ -108,7 +109,7 @@
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.FromArgb(64, 64, 64);
-            ClientSize = new Size(285, 194);
+            ClientSize = new Size(266, 185);
             Controls.Add(button1);
             Controls.Add(label3);
             Controls.Add(button2);
@@ -117,8 +118,10 @@
             Controls.Add(label2);
             Controls.Add(label1);
             ForeColor = Color.White;
+            FormBorderStyle = FormBorderStyle.FixedSingle;
+            MaximizeBox = false;
             Name = "Form5";
-            Text = "Form5";
+            Text = "QueryAutomatic";
             ResumeLayout(false);
             PerformLayout();
         }

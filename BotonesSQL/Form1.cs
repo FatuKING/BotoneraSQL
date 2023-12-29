@@ -16,7 +16,7 @@ namespace BotonesSQL
             string username = textBox1.Text;
             string password = textBox2.Text;
 
-            if (username == "icg" & password == "Arg3ntina")
+            if (username == "admin" & password == "hoguera")
             {
                 this.Hide();
 

@@ -35,7 +35,7 @@ namespace BotonesSQL
 
                     MessageBox.Show("Numero de DNI actual: " + result.ToString());
 
-                    
+
                 }
                 catch (Exception ex)
                 {

@@ -57,5 +57,4 @@ C:\Users\fcozzani\Desktop\queryAutomatic\BotoneraSQL\BotonesSQL\obj\Release\net6
 C:\Users\fcozzani\Desktop\queryAutomatic\BotoneraSQL\BotonesSQL\obj\Release\net6.0-windows\BotonesSQL.Form5.resources
 C:\Users\fcozzani\Desktop\queryAutomatic\BotoneraSQL\BotonesSQL\obj\Release\net6.0-windows\BotonesSQL.Form6.resources
 C:\Users\fcozzani\Desktop\queryAutomatic\BotoneraSQL\BotonesSQL\obj\Release\net6.0-windows\BotonesSQL.Form7.resources
-C:\Users\fcozzani\Desktop\queryAutomatic\BotoneraSQL\BotonesSQL\obj\Release\net6.0-windows\BotonesSQL.Form8.resources
 C:\Users\fcozzani\Desktop\queryAutomatic\BotoneraSQL\BotonesSQL\obj\Release\net6.0-windows\BotonesSQL.Properties.Resources.resources
