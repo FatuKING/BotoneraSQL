@@ -26,7 +26,7 @@ namespace BotonesSQL
             ConnectionSQL connection = new ConnectionSQL();
             connection.open();
 
-            string query = $"update CLIENTES set REGIMFACT = {regimenFacturacion} where CIF = {numeroCIF}";
+            string query = $"update CLIENTES set REGIMFACT = {regimenFacturacion} where CIF = '{numeroCIF}'";
 
             using (SqlCommand cmd = new SqlCommand(query, connection.getConnection()))
             {

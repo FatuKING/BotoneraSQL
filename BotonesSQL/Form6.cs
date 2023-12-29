@@ -26,7 +26,7 @@ namespace BotonesSQL
             ConnectionSQL connection = new ConnectionSQL();
             connection.open();
 
-            string query = $"update TIQUETSCAB set CODVENDEDOR = {numeroDeVendedor} where NUMERO = {numeroTicket})";
+            string query = $"update TIQUETSCAB set CODVENDEDOR = {numeroDeVendedor} where NUMERO = {numeroTicket}";
 
             using (SqlCommand cmd = new SqlCommand(query, connection.getConnection()))
             {
