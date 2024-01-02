@@ -60,7 +60,7 @@ namespace BotonesSQL
             ConnectionSQL connection = new ConnectionSQL();
             connection.open();
 
-            string query = $"select CODVENDEDOR from VENDEDORES where NOMBRECORTO = '{nombreCorto}')";
+            string query = $"select CODVENDEDOR from VENDEDORES where NOMBRECORTO = '{nombreCorto}'";
 
             using (SqlCommand cmd = new SqlCommand(query, connection.getConnection()))
             {

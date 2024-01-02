@@ -10,8 +10,8 @@ namespace BotonesSQL
 {
     internal class ConnectionSQL
     {
-        //string connectionString = "Data Source=.\\SQLEXPRESS;Initial Catalog=DBFREST;Integrated Security=True;";
-        string connectionString = "Data Source=.\\SQLEXPRESS;Initial Catalog=DBFREST;User ID=sa;Password=masterkey;";
+        string connectionString = "Data Source=.\\SQLEXPRESS;Initial Catalog=DBFREST;Integrated Security=True;";
+        //string connectionString = "Data Source=.\\SQLEXPRESS;Initial Catalog=DBFREST;User ID=sa;Password=masterkey;";
         public SqlConnection connectionDB = new SqlConnection();
 
         public ConnectionSQL ()

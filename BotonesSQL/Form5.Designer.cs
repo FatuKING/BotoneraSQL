@@ -77,7 +77,7 @@
             button2.Location = new Point(12, 139);
             button2.Name = "button2";
             button2.Size = new Size(238, 32);
-            button2.TabIndex = 5;
+            button2.TabIndex = 7;
             button2.Text = "Cambiar DNI";
             button2.UseVisualStyleBackColor = true;
             button2.Click += button2_Click;
@@ -89,7 +89,7 @@
             label3.Location = new Point(67, 9);
             label3.Name = "label3";
             label3.Size = new Size(126, 18);
-            label3.TabIndex = 6;
+            label3.TabIndex = 5;
             label3.Text = "Actualizar DNI";
             // 
             // button1
@@ -99,7 +99,7 @@
             button1.Location = new Point(12, 100);
             button1.Name = "button1";
             button1.Size = new Size(238, 33);
-            button1.TabIndex = 7;
+            button1.TabIndex = 6;
             button1.Text = "Consulta DNI actual";
             button1.UseVisualStyleBackColor = true;
             button1.Click += button1_Click;

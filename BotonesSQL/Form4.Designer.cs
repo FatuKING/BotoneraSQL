@@ -43,7 +43,7 @@
             button1.Location = new Point(14, 100);
             button1.Name = "button1";
             button1.Size = new Size(297, 31);
-            button1.TabIndex = 0;
+            button1.TabIndex = 2;
             button1.Text = "Aceptar";
             button1.UseVisualStyleBackColor = true;
             button1.Click += button1_Click;
@@ -53,14 +53,14 @@
             textBox1.Location = new Point(157, 42);
             textBox1.Name = "textBox1";
             textBox1.Size = new Size(154, 23);
-            textBox1.TabIndex = 1;
+            textBox1.TabIndex = 0;
             // 
             // textBox2
             // 
             textBox2.Location = new Point(157, 71);
             textBox2.Name = "textBox2";
             textBox2.Size = new Size(154, 23);
-            textBox2.TabIndex = 2;
+            textBox2.TabIndex = 1;
             // 
             // label1
             // 

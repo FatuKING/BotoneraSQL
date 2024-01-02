@@ -44,7 +44,7 @@
             button1.Location = new Point(12, 94);
             button1.Name = "button1";
             button1.Size = new Size(275, 33);
-            button1.TabIndex = 0;
+            button1.TabIndex = 3;
             button1.Text = "Sacar codigo vendedor";
             button1.UseVisualStyleBackColor = true;
             button1.Click += button1_Click;
@@ -56,7 +56,7 @@
             button2.Location = new Point(12, 133);
             button2.Name = "button2";
             button2.Size = new Size(275, 33);
-            button2.TabIndex = 1;
+            button2.TabIndex = 4;
             button2.Text = "Ocultar usuario";
             button2.UseVisualStyleBackColor = true;
             button2.Click += button2_Click;
@@ -96,14 +96,14 @@
             textBox1.Location = new Point(187, 36);
             textBox1.Name = "textBox1";
             textBox1.Size = new Size(100, 23);
-            textBox1.TabIndex = 5;
+            textBox1.TabIndex = 0;
             // 
             // textBox2
             // 
             textBox2.Location = new Point(187, 65);
             textBox2.Name = "textBox2";
             textBox2.Size = new Size(100, 23);
-            textBox2.TabIndex = 6;
+            textBox2.TabIndex = 1;
             // 
             // Form3
             // 

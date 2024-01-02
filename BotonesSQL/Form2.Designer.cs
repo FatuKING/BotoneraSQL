@@ -30,14 +30,14 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form2));
             label1 = new Label();
-            button1 = new Button();
-            button2 = new Button();
-            button3 = new Button();
-            button4 = new Button();
-            button5 = new Button();
-            button6 = new Button();
+            btn6 = new Button();
+            btn7 = new Button();
+            btn1 = new Button();
+            btn4 = new Button();
+            btn2 = new Button();
+            btn3 = new Button();
             label2 = new Label();
-            button8 = new Button();
+            btn5 = new Button();
             pictureBox1 = new PictureBox();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             SuspendLayout();
@@ -52,78 +52,78 @@
             label1.TabIndex = 0;
             label1.Text = "Ticket Fiscal";
             // 
-            // button1
+            // btn6
             // 
-            button1.FlatStyle = FlatStyle.Flat;
-            button1.Font = new Font("Verdana", 9F, FontStyle.Regular, GraphicsUnit.Point);
-            button1.ForeColor = Color.White;
-            button1.Location = new Point(187, 59);
-            button1.Name = "button1";
-            button1.Size = new Size(170, 43);
-            button1.TabIndex = 1;
-            button1.Text = "Borrar setup";
-            button1.UseVisualStyleBackColor = false;
-            button1.Click += button1_Click;
+            btn6.FlatStyle = FlatStyle.Flat;
+            btn6.Font = new Font("Verdana", 9F, FontStyle.Regular, GraphicsUnit.Point);
+            btn6.ForeColor = Color.White;
+            btn6.Location = new Point(187, 59);
+            btn6.Name = "btn6";
+            btn6.Size = new Size(170, 43);
+            btn6.TabIndex = 6;
+            btn6.Text = "Borrar setup";
+            btn6.UseVisualStyleBackColor = false;
+            btn6.Click += btn6_Click;
             // 
-            // button2
+            // btn7
             // 
-            button2.FlatStyle = FlatStyle.Flat;
-            button2.Font = new Font("Verdana", 9F, FontStyle.Regular, GraphicsUnit.Point);
-            button2.Location = new Point(187, 108);
-            button2.Name = "button2";
-            button2.Size = new Size(170, 43);
-            button2.TabIndex = 2;
-            button2.Text = "Ocultar usuario";
-            button2.UseVisualStyleBackColor = true;
-            button2.Click += button2_Click;
+            btn7.FlatStyle = FlatStyle.Flat;
+            btn7.Font = new Font("Verdana", 9F, FontStyle.Regular, GraphicsUnit.Point);
+            btn7.Location = new Point(187, 108);
+            btn7.Name = "btn7";
+            btn7.Size = new Size(170, 43);
+            btn7.TabIndex = 7;
+            btn7.Text = "Ocultar usuario";
+            btn7.UseVisualStyleBackColor = true;
+            btn7.Click += btn7_Click;
             // 
-            // button3
+            // btn1
             // 
-            button3.FlatStyle = FlatStyle.Flat;
-            button3.Font = new Font("Verdana", 9F, FontStyle.Regular, GraphicsUnit.Point);
-            button3.Location = new Point(12, 59);
-            button3.Name = "button3";
-            button3.Size = new Size(169, 43);
-            button3.TabIndex = 3;
-            button3.Text = "Actualizar nombre cliente";
-            button3.UseVisualStyleBackColor = true;
-            button3.Click += button3_Click;
+            btn1.FlatStyle = FlatStyle.Flat;
+            btn1.Font = new Font("Verdana", 9F, FontStyle.Regular, GraphicsUnit.Point);
+            btn1.Location = new Point(12, 59);
+            btn1.Name = "btn1";
+            btn1.Size = new Size(169, 43);
+            btn1.TabIndex = 1;
+            btn1.Text = "Actualizar nombre cliente";
+            btn1.UseVisualStyleBackColor = true;
+            btn1.Click += btn1_Click;
             // 
-            // button4
+            // btn4
             // 
-            button4.FlatStyle = FlatStyle.Flat;
-            button4.Font = new Font("Verdana", 9F, FontStyle.Regular, GraphicsUnit.Point);
-            button4.Location = new Point(12, 206);
-            button4.Name = "button4";
-            button4.Size = new Size(169, 43);
-            button4.TabIndex = 4;
-            button4.Text = "Ocultar ticket";
-            button4.UseVisualStyleBackColor = true;
-            button4.Click += button4_Click;
+            btn4.FlatStyle = FlatStyle.Flat;
+            btn4.Font = new Font("Verdana", 9F, FontStyle.Regular, GraphicsUnit.Point);
+            btn4.Location = new Point(12, 206);
+            btn4.Name = "btn4";
+            btn4.Size = new Size(169, 43);
+            btn4.TabIndex = 4;
+            btn4.Text = "Ocultar ticket";
+            btn4.UseVisualStyleBackColor = true;
+            btn4.Click += btn4_Click;
             // 
-            // button5
+            // btn2
             // 
-            button5.FlatStyle = FlatStyle.Flat;
-            button5.Font = new Font("Verdana", 9F, FontStyle.Regular, GraphicsUnit.Point);
-            button5.Location = new Point(12, 108);
-            button5.Name = "button5";
-            button5.Size = new Size(169, 43);
-            button5.TabIndex = 5;
-            button5.Text = "Actualizar DNI";
-            button5.UseVisualStyleBackColor = true;
-            button5.Click += button5_Click;
+            btn2.FlatStyle = FlatStyle.Flat;
+            btn2.Font = new Font("Verdana", 9F, FontStyle.Regular, GraphicsUnit.Point);
+            btn2.Location = new Point(12, 108);
+            btn2.Name = "btn2";
+            btn2.Size = new Size(169, 43);
+            btn2.TabIndex = 2;
+            btn2.Text = "Actualizar DNI";
+            btn2.UseVisualStyleBackColor = true;
+            btn2.Click += btn2_Click;
             // 
-            // button6
+            // btn3
             // 
-            button6.FlatStyle = FlatStyle.Flat;
-            button6.Font = new Font("Verdana", 9F, FontStyle.Regular, GraphicsUnit.Point);
-            button6.Location = new Point(12, 157);
-            button6.Name = "button6";
-            button6.Size = new Size(169, 43);
-            button6.TabIndex = 6;
-            button6.Text = "Ticket sin vendedor";
-            button6.UseVisualStyleBackColor = true;
-            button6.Click += button6_Click;
+            btn3.FlatStyle = FlatStyle.Flat;
+            btn3.Font = new Font("Verdana", 9F, FontStyle.Regular, GraphicsUnit.Point);
+            btn3.Location = new Point(12, 157);
+            btn3.Name = "btn3";
+            btn3.Size = new Size(169, 43);
+            btn3.TabIndex = 3;
+            btn3.Text = "Ticket sin vendedor";
+            btn3.UseVisualStyleBackColor = true;
+            btn3.Click += btn3_Click;
             // 
             // label2
             // 
@@ -132,20 +132,20 @@
             label2.Location = new Point(187, 23);
             label2.Name = "label2";
             label2.Size = new Size(128, 29);
-            label2.TabIndex = 7;
+            label2.TabIndex = 2;
             label2.Text = "FrontRest";
             // 
-            // button8
+            // btn5
             // 
-            button8.FlatStyle = FlatStyle.Flat;
-            button8.Font = new Font("Verdana", 9F, FontStyle.Regular, GraphicsUnit.Point);
-            button8.Location = new Point(12, 255);
-            button8.Name = "button8";
-            button8.Size = new Size(169, 43);
-            button8.TabIndex = 9;
-            button8.Text = "Cambiar régimen de facturación";
-            button8.UseVisualStyleBackColor = true;
-            button8.Click += button8_Click;
+            btn5.FlatStyle = FlatStyle.Flat;
+            btn5.Font = new Font("Verdana", 9F, FontStyle.Regular, GraphicsUnit.Point);
+            btn5.Location = new Point(12, 255);
+            btn5.Name = "btn5";
+            btn5.Size = new Size(169, 43);
+            btn5.TabIndex = 5;
+            btn5.Text = "Cambiar régimen de facturación";
+            btn5.UseVisualStyleBackColor = true;
+            btn5.Click += btn5_Click;
             // 
             // pictureBox1
             // 
@@ -164,14 +164,14 @@
             BackColor = Color.FromArgb(64, 64, 64);
             ClientSize = new Size(373, 311);
             Controls.Add(pictureBox1);
-            Controls.Add(button8);
+            Controls.Add(btn5);
             Controls.Add(label2);
-            Controls.Add(button6);
-            Controls.Add(button5);
-            Controls.Add(button4);
-            Controls.Add(button3);
-            Controls.Add(button2);
-            Controls.Add(button1);
+            Controls.Add(btn3);
+            Controls.Add(btn2);
+            Controls.Add(btn4);
+            Controls.Add(btn1);
+            Controls.Add(btn7);
+            Controls.Add(btn6);
             Controls.Add(label1);
             ForeColor = Color.White;
             FormBorderStyle = FormBorderStyle.FixedSingle;
@@ -184,16 +184,15 @@
         }
 
         #endregion
-
         private Label label1;
-        private Button button1;
-        private Button button2;
-        private Button button3;
-        private Button button4;
-        private Button button5;
-        private Button button6;
         private Label label2;
-        private Button button8;
+        private Button btn1;
+        private Button btn2;
+        private Button btn3;
+        private Button btn4;
+        private Button btn5;
+        private Button btn6;
+        private Button btn7;
         private PictureBox pictureBox1;
     }
 }
