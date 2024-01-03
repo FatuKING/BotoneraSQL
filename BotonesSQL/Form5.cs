@@ -25,7 +25,7 @@ namespace BotonesSQL
             ConnectionSQL connection = new ConnectionSQL();
             connection.open();
 
-            string query = $"select CIF from CLIENTES where CODCLIENTE = (select CODCLIENTE from TIQUETSCAB where NUMERO = {numeroTicket})";
+            string query = $"select CIF from CLIENTES where CODCLIENTE = (select CODCLIENTE from TIQUETSCAB where NUMERO = {numeroTicket}) and N = 'B'";
 
             using (SqlCommand cmd = new SqlCommand(query, connection.getConnection()))
             {
@@ -56,7 +56,7 @@ namespace BotonesSQL
             ConnectionSQL connection = new ConnectionSQL();
             connection.open();
 
-            string query = $"update CLIENTES set CIF = '{numeroDNI}' where CODCLIENTE = (select CODCLIENTE from TIQUETSCAB where NUMERO = {numeroTicket})";
+            string query = $"update CLIENTES set CIF = '{numeroDNI}' where CODCLIENTE = (select CODCLIENTE from TIQUETSCAB where NUMERO = {numeroTicket} and N = 'B')";
 
             using (SqlCommand cmd = new SqlCommand(query, connection.getConnection()))
             {

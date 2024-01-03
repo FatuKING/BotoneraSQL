@@ -175,6 +175,7 @@
             Controls.Add(label1);
             ForeColor = Color.White;
             FormBorderStyle = FormBorderStyle.FixedSingle;
+            Icon = (Icon)resources.GetObject("$this.Icon");
             MaximizeBox = false;
             Name = "Form2";
             Text = "QueryAutomatic";
